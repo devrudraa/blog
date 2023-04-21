@@ -1,0 +1,81 @@
+[
+  {
+    "mainInfo": {
+      "author": "Satyam",
+      "date": "Feb 25, 2018",
+      "profilePic": "/Post/User/default_user.webp"
+    },
+    "content": {
+      "title": "What is Next Js?",
+      "heroImage": "/Post/Thumb/id2cd988525684f.png",
+      "heroAlt": "what is next js device frames",
+      "smallContent": "Next.js is a powerful and popular framework for building server-side rendered web applications. It is built on top of React, a JavaScript library for building user interfaces, and provides additional functionality for building server-rendered applications. Next.js was created by Zeit and is now maintained by Vercel, a company that provides cloud infrastructure for building and deploying web applications.",
+      "blog": [
+        {
+          "type": "html",
+          "html": "<p><strong>Next.js</strong> provides developers with a set of tools and features that make it easy to build complex, scalable, and performant web applications. Some of the key features of Next.js include:</p>"
+        },
+        {
+          "type": "steps",
+          "steps": [
+            {
+              "topic": "Server-Side Rendering",
+              "desc": [
+                {
+                  "type": "text",
+                  "desc": "Next.js provides built-in support for server-side rendering, which allows web applications to render HTML on the server before sending it to the client. This can help improve the performance and SEO of web applications, as well as provide a better user experience."
+                }
+              ]
+            },
+            {
+              "topic": "Automatic Code Splitting",
+              "desc": [
+                {
+                  "type": "text",
+                  "desc": "Next.js automatically splits code into smaller chunks, which are loaded as needed. This can help reduce the initial load time of web applications, as well as improve their performance and scalability."
+                }
+              ]
+            },
+            {
+              "topic": "Easy Routing",
+              "desc": [
+                {
+                  "type": "text",
+                  "desc": "Next.js provides a built-in routing system, which makes it easy to define how different URLs should map to different pages and components. This can help developers create complex web applications with lots of different routes and pages."
+                }
+              ]
+            },
+            {
+              "topic": "Static Site Generation ",
+              "desc": [
+                {
+                  "type": "text",
+                  "desc": "Next.js supports static site generation, which allows developers to pre-render pages and serve them as static files. This can help improve the performance and SEO of web applications, as well as provide a better user experience."
+                }
+              ]
+            },
+            {
+              "topic": "TypeScript Support ",
+              "desc": [
+                {
+                  "type": "text",
+                  "desc": "Next.js provides built-in support for TypeScript, a typed superset of JavaScript that can help improve the quality and maintainability of code"
+                }
+              ]
+            },
+            {
+              "topic": "API Routes",
+              "desc": [
+                {
+                  "type": "text",
+                  "desc": "Next.js provides built-in support for API routes, which allows developers to create serverless API endpoints that can be used to retrieve or manipulate data."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conclusion": "Overall, Next.js is a powerful and flexible framework for building server-side rendered web applications. It provides developers with a set of tools and features that make it easy to build complex, scalable, and performant web applications. Whether you&#39;re building a small blog or a large-scale web application, Next.js is definitely worth considering."
+    }
+  }
+]

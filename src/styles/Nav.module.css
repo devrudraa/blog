@@ -1,0 +1,54 @@
+.move {
+  top: 60px !important;
+}
+
+#mobiList {
+  transition: all ease-in-out 0.6s;
+}
+
+.burg {
+  transition: all ease-in-out 0.5s;
+}
+
+.lines {
+  border-radius: 50px;
+  margin-right: 15px;
+  width: 50px;
+  height: 5px;
+  background: #ef4444;
+  position: relative;
+}
+.lines::before,
+.lines::after {
+  content: "";
+  border-radius: inherit;
+  margin-right: inherit;
+  width: 25px;
+  height: inherit;
+  background: inherit;
+  position: absolute;
+  /* top: -10px; */
+}
+
+.lines::before {
+  top: -10px;
+}
+
+.lines::after {
+  right: -15px;
+  bottom: -10px;
+}
+
+.cross {
+  rotate: 45deg;
+  width: 45px;
+}
+
+.cross::before {
+  rotate: 90deg;
+  left: 25%;
+}
+.cross::after {
+  rotate: 90deg;
+  left: 22%;
+}

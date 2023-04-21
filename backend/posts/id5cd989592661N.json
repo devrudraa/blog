@@ -1,0 +1,71 @@
+[
+  {
+    "mainInfo": {
+      "author": "Satyam",
+      "date": "Feb 25, 2018",
+      "profilePic": "/Post/User/default_user.webp"
+    },
+    "content": {
+      "title": "How to create a Next JS app?",
+      "heroImage": "/Post/Thumb/id5cd989592661N.png",
+      "heroAlt": "How to create next js app",
+      "smallContent": "<p> <i>Next.js</i> is an open-source web development framework created by <b>Vercel</b> enabling <i>React-based web applications</i> with <b>server-side rendering</b> and <b>generating static websites</b>. React documentation mentions Next.js among Recommended Toolchains advising it to developers as a solution when Building a <i>server-rendered website</i> with <i>Node.js</i> Where traditional React apps can only render their content in the <i>client-side browser</i>, Next.js extends this functionality to include applications rendered on the server-side. </p>",
+
+      "blog": [
+        {
+          "type": "para",
+          "text": "First you have to install Node Js and then install Next Js by running this command in your terminal: "
+        },
+        {
+          "type": "code",
+          "lang": "ps",
+          "code": "npm i -g next"
+        },
+        {
+          "type": "para",
+          "text": "This will install Next globally in your computer and you can access it via termial or cmd"
+        },
+        {
+          "type": "heading",
+          "text": "Create Next App"
+        },
+        {
+          "type": "para",
+          "text": "To create a new Next.js app, run the following command in your terminal:"
+        },
+        {
+          "type": "code",
+          "lang": "cmd",
+          "code": "npm create next-app my-app"
+        },
+        {
+          "type": "para",
+          "text": "Replace <b>my-app</b> with the name of your app. This command will create a new Next.js app in a directory named <b>my-app</b><br> And your Next App is ready now you can run this command to Start the development server"
+        },
+        {
+          "type": "code",
+          "lang": "bash",
+          "code": "cd my-app && \nnpm run dev"
+        },
+        {
+          "type": "para",
+          "text": "This will start the server and you should be able to view your app in the browser at <a target='_blank' href='http://localhost:3000' class='underline text-red-600'>http://localhost:3000</a>."
+        },
+        {
+          "type": "heading",
+          "text": "Image of your initial app"
+        },
+        {
+          "type": "image",
+          "src": "/Post/nextjs_initial_page.png",
+          "alt": "Next js index page default dark theme next js 13"
+        },
+        {
+          "type": "para",
+          "text": "This is how your app will look like initially but you can modify <i>index.js</i> to customise the app. <br> You can create more pages in your app by making more file in your <b>public</b> directory<br>You can view those page by going on https://localhost:3000/customPage"
+        }
+      ],
+      "conclusion": "<p>In conclusion, creating a Next.js app for a blog is a straightforward process that requires some initial setup and configuration. To create a Next.js blog, you&#39;ll need to set up a Next.js project, create your pages and components, and configure your blog&#39;s data sources.</p><p>Next.js provides several features that make it an ideal choice for building a blog, including server-side rendering, static site generation, and a flexible routing system. With these features, you can build a blog that is fast, responsive, and easy to maintain.</p><p>When creating a Next.js app for a blog, it&#39;s essential to prioritize the user experience. This includes optimizing your site&#39;s performance, ensuring that your content is easily accessible, and making sure that your site is responsive on a range of devices.</p><p>Overall, with Next.js, building a blog has never been easier. With a little bit of planning and setup, you can create a professional-looking blog that meets your specific needs and goals.</p>"
+    }
+  }
+]
