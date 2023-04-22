@@ -1,3 +1,4 @@
+// this is node mailer
 import nodemailer from "nodemailer";
 const emailValidator = require("deep-email-validator");
 
